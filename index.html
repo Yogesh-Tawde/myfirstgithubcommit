@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+            background-color: rgb(134, 96, 222);
+            text-align: center;
+            color: white;
+        }
+        .skill{
+            color:rgb(134, 96, 222);
+        }
+        .skillinput{
+            background-color: #E3E1D9;
+            width: 50%;
+            height: 30px;
+            
+        }
+        .projects{
+            color: rgb(134, 96, 222);
+        }
+        .projectinput{
+            background-color: white;
+            width: 100%;
+            height: 70px;
+        }
+        .container {
+        display: flex;
+        justify-content: center;
+        }
+        .form {
+       width:50%;
+       align-items: center;
+     }
+     h2{
+        color: rgb(134, 96, 222);
+     }
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <h1>Your Name</h1>
+            <h6>Breif introduction about yourself.</h6>
+        </div>
+        <div class="skill">
+            <h2 class="h2">Skill</h2>
+            <input type="text"  class="skillinput"placeholder="Add your Skills">
+        </div>
+        <div class="projects">
+            <h2 class="h2">Projects</h2>
+            <input type="text" class="projectinput" placeholder="Project description goes here">
+        </div>
+
+        <div class="container">
+                            <div class="form">
+                                <form action="Contact">
+                                    <div class="mb-3">
+                                        <h2 class="h2">Contact</h2>
+                                        <input type="text" class="form-control" id="Input1" placeholder="Your Name">
+                                      </div>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" id="Input2" placeholder="Your Email">
+                                      </div>
+                                      <div class="mb-3">
+                                        <textarea class="form-control" id="Textarea1" rows="3" placeholder="Your Messege"></textarea>
+                                      </div>
+                                </form>
+                            </div>
+                </div>  
+            </div>        
+    </div>
+</body>
+</html>
